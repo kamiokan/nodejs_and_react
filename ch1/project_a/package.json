@@ -1,0 +1,14 @@
+{
+  "name": "project_a",
+  "version": "1.0.0",
+  "description": "npmプロジェクトのテスト",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kamiokan",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
