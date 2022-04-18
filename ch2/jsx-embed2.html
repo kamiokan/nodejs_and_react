@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <script src='https://unpkg.com/react@15/dist/react.min.js'></script>
+  <script src='https://unpkg.com/react-dom@15/dist/react-dom.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.min.js'></script>
+</head>
+<body>
+<div id='root'></div>
+<script type='text/babel'>
+  const title = '阿部寛'
+  const imgUrl = 'http://abehiroshi.la.coocan.jp/abe-top-20190328-2.jpg'
+  const msg =
+    <div>
+      <h1>{title}</h1>
+      <p><img src={imgUrl} /></p>
+    </div>
+  const elm = document.getElementById('root')
+  ReactDOM.render(msg, elm)
+</script>
+</body>
+</html>
